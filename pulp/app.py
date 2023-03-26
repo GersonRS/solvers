@@ -1,6 +1,6 @@
 import pandas as pd
 
-from pulp import LpMaximize, LpProblem, LpVariable, lpSum
+from pulp import LpMaximize, LpProblem, LpVariable, lpSum, value
 
 df = pd.DataFrame(
     {
@@ -41,7 +41,7 @@ prob += inv_vars["x2"] <= 8000, "x2 Demand"
 prob.solve()
 
 # Answer
-print(prob.objective)  # 9000
+print(value(prob.objective))  # 90000
 # Variables' values
 print("The optimal answer\n" + "-" * 70)
 for v in prob.variables():
