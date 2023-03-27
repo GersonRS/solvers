@@ -1,7 +1,10 @@
-# Solver em Python
+# PuLP
 
 `POC` baseada no `Yu Wei Chung` sobre [How to use Solver (Excel) in Python](https://ychung38.medium.com/how-to-use-solver-excel-in-python-458336408c7f).
 
+## Links úteis
+Documentação: [https://github.com/coin-or/pulp](https://github.com/coin-or/pulp)
+Exemplo de uso: [How to use Solver (Excel) in Python](https://ychung38.medium.com/how-to-use-solver-excel-in-python-458336408c7f)
 
 ## Problema
 
